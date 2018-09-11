@@ -33,14 +33,14 @@ def getTasks():
 """ Get input for the server object"""
 def getServerAddress():
 	#Encrypted text file
-	address = "smtpout.secureserver.net"
+	address = ""
 
 	return address
 
 
 def getServerPort():	
 	#Encrypted text file
-	port = 465
+	port = 0
 
 	return port
 
@@ -48,8 +48,8 @@ count = 1
 def getServerUsername():	
 	#Encrypted text file
 	global count
-	#username = str(count) + "@kennedydevs.com"
-	username = "test@kennedy-csg.com"
+	
+	username = ""
 	count = count + 1
 	
 	return username
@@ -57,7 +57,7 @@ def getServerUsername():
 
 def getServerPassword():	
 	#Encrypted text file
-	password = "password"
+	password = ""
 
 	return password
 	
