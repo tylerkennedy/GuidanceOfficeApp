@@ -1,1 +1,0 @@
-Mail SUCCESSFULLY sent to  (kennedytyler25@icloud.com), at 2018-09-11 08-57-54 with (Test Email Sent from Python)
